@@ -11,33 +11,8 @@ The goal is to build a deep learning model that can accurately recognize the thr
 - **Input:** Image of a hand showing one of the gestures (rock, paper, or scissors)
 - **Output:** Predicted class label – `Rock`, `Paper`, or `Scissors`
 
-## virtual environment
-To create virtual environment in `D:\mlvenv` folder
+## 📂 Dataset
 
-```
-$ py -m venv D:\mlvenv
-```
-
-## pip
-To update pip if necessary in the virtual environment
-
-```
-$ D:\mlvenv\Scripts\activate
-$ py -m pip install --upgrade pip
-```
-
-## packages
-To install all packages listed in `requirements.txt`
-
-```
-$ v:\mlvenv\Scripts\activate
-$ pip install -r requirements.txt
-```
-
-## jupyter notebook
-To launch Jupypter Notebook
-
-```
-$ D:\mlvenv\Scripts\activate
-$ jupyter notebook
-```
+You can download the Dataset of this project from the link :
+- [Rock-Paper-Scissors Dataset from TensorFlow Datasets](https://github.com/dicodingacademy/assets/releases/download/release/rockpaperscissors.zip)
+- Or create a custom dataset using your own gesture images
